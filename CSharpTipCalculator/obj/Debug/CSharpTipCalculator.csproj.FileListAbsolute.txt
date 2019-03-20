@@ -1,0 +1,15 @@
+C:\Users\LiuYuxin\Documents\GitHub\CSharpTipCalculator\CSharpTipCalculator\bin\Debug\CSharpTipCalculator.exe.config
+C:\Users\LiuYuxin\Documents\GitHub\CSharpTipCalculator\CSharpTipCalculator\bin\Debug\CSharpTipCalculator.exe
+C:\Users\LiuYuxin\Documents\GitHub\CSharpTipCalculator\CSharpTipCalculator\bin\Debug\CSharpTipCalculator.pdb
+C:\Users\LiuYuxin\Documents\GitHub\CSharpTipCalculator\CSharpTipCalculator\obj\Debug\CSharpTipCalculator.csprojAssemblyReference.cache
+C:\Users\LiuYuxin\Documents\GitHub\CSharpTipCalculator\CSharpTipCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\LiuYuxin\Documents\GitHub\CSharpTipCalculator\CSharpTipCalculator\obj\Debug\App.g.cs
+C:\Users\LiuYuxin\Documents\GitHub\CSharpTipCalculator\CSharpTipCalculator\obj\Debug\CSharpTipCalculator_MarkupCompile.cache
+C:\Users\LiuYuxin\Documents\GitHub\CSharpTipCalculator\CSharpTipCalculator\obj\Debug\CSharpTipCalculator_MarkupCompile.lref
+C:\Users\LiuYuxin\Documents\GitHub\CSharpTipCalculator\CSharpTipCalculator\obj\Debug\MainWindow.baml
+C:\Users\LiuYuxin\Documents\GitHub\CSharpTipCalculator\CSharpTipCalculator\obj\Debug\CSharpTipCalculator.g.resources
+C:\Users\LiuYuxin\Documents\GitHub\CSharpTipCalculator\CSharpTipCalculator\obj\Debug\CSharpTipCalculator.Properties.Resources.resources
+C:\Users\LiuYuxin\Documents\GitHub\CSharpTipCalculator\CSharpTipCalculator\obj\Debug\CSharpTipCalculator.csproj.GenerateResource.cache
+C:\Users\LiuYuxin\Documents\GitHub\CSharpTipCalculator\CSharpTipCalculator\obj\Debug\CSharpTipCalculator.csproj.CoreCompileInputs.cache
+C:\Users\LiuYuxin\Documents\GitHub\CSharpTipCalculator\CSharpTipCalculator\obj\Debug\CSharpTipCalculator.exe
+C:\Users\LiuYuxin\Documents\GitHub\CSharpTipCalculator\CSharpTipCalculator\obj\Debug\CSharpTipCalculator.pdb
