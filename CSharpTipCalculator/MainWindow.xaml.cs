@@ -1,17 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace CSharpTipCalculator {
     /// <summary>
@@ -25,7 +15,6 @@ namespace CSharpTipCalculator {
         }
 
         private void billAmountTextBox_LostFocus(object sender, RoutedEventArgs e) {
-            //performCalculation();
             billAmountTextBox.Text = tip.BillAmount;
         }
 
@@ -44,7 +33,7 @@ namespace CSharpTipCalculator {
         private void performCalculation() {
             var selectedRadio = myStackPanel.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked ?? false);
             if (selectedRadio == null) return;
-            tip.CalculateTip(billAmountTextBox.Text, double.Parse(selectedRadio.Tag.ToString()));
+            tip.CalculateTip(billAmountTextBox.Text, decimal.Parse(selectedRadio.Tag.ToString()));
             amountToTipTextBlock.Text = tip.TipAmount;
             totalTextBlock.Text = tip.TotalAmount;
         }

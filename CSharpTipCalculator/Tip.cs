@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpTipCalculator {
     class Tip {
@@ -13,11 +9,11 @@ namespace CSharpTipCalculator {
         public Tip() {
             BillAmount = TipAmount = TotalAmount = String.Empty;
         }
-        public void CalculateTip(string originalAmount, double tipPercentage) {
-            var billAmount = 0.0;
-            var tipAmount = 0.0;
-            var totalAmount = 0.0;
-            if (double.TryParse(originalAmount.Replace('$', ' '), out billAmount)) {
+        public void CalculateTip(string originalAmount, decimal tipPercentage) {
+            var billAmount = 0.0m;
+            var tipAmount = 0.0m;
+            var totalAmount = 0.0m;
+            if (decimal.TryParse(originalAmount.Replace('$', ' '), out billAmount)) {
                 tipAmount = billAmount * tipPercentage;
                 totalAmount = billAmount + tipAmount;
             }
